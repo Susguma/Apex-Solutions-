@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Corte de grama em Santo Ângelo. Atendimento em domicílio e orçamento pelo WhatsApp.">
+  <title>Apex Corte de Grama | Santo Ângelo</title>
+  <style>
+    :root{
+      --green:#176b3a; --green2:#23864b; --light:#f3f8f4;
+      --dark:#123322; --white:#fff; --gold:#f2b544;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:#fff;line-height:1.5}
+    a{text-decoration:none}
+    .wrap{max-width:1080px;margin:auto;padding:0 20px}
+    .hero{background:linear-gradient(145deg,#0e4f2b,#23864b);color:#fff;padding:28px 0 55px}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .brand{font-size:22px;font-weight:800}
+    .tag{font-size:13px;opacity:.9}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center;padding-top:48px}
+    h1{font-size:clamp(36px,6vw,64px);line-height:1.02;margin:0 0 18px}
+    .hero p{font-size:19px;margin:0 0 25px;max-width:620px}
+    .offer{display:inline-block;background:var(--gold);color:#332000;padding:10px 15px;border-radius:999px;font-weight:800;margin-bottom:18px}
+    .cta{display:inline-flex;align-items:center;justify-content:center;background:#fff;color:var(--green);font-weight:800;padding:15px 22px;border-radius:12px;box-shadow:0 8px 24px #0002}
+    .hero-card{background:#fff;color:var(--dark);border-radius:22px;padding:28px;box-shadow:0 20px 50px #0003}
+    .grass-icon{font-size:70px;text-align:center}
+    .hero-card h3{text-align:center;margin:8px 0}
+    .hero-card p{text-align:center;margin:0;color:#53645a}
+    section{padding:58px 0}
+    .title{text-align:center;margin-bottom:34px}
+    .title h2{font-size:34px;margin:0 0 8px}
+    .title p{margin:0;color:#66756c}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{padding:25px;border:1px solid #e3ebe5;border-radius:18px;background:#fff;box-shadow:0 8px 25px #173b2210}
+    .card .ico{font-size:34px}
+    .card h3{margin:10px 0 6px}
+    .offer-section{background:var(--light)}
+    .offer-box{max-width:760px;margin:auto;background:#fff;border:2px dashed #4c9a67;border-radius:22px;padding:30px;text-align:center}
+    .discount{font-size:42px;font-weight:900;color:var(--green);margin:8px 0}
+    .code{display:inline-block;background:#eef5ef;border-radius:8px;padding:8px 12px;font-weight:800}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .photo{min-height:180px;border-radius:18px;background:linear-gradient(135deg,#a9d68d,#4b9c59);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;text-align:center;padding:20px}
+    .contact{background:#123322;color:#fff;text-align:center}
+    .contact h2{font-size:36px;margin-top:0}
+    .contact p{color:#dce9df}
+    footer{background:#0b2517;color:#bcd0c2;text-align:center;padding:22px;font-size:13px}
+    .whatsapp{display:inline-flex;gap:10px;align-items:center;background:#25D366;color:#073b1c;padding:16px 24px;border-radius:12px;font-weight:900}
+    @media(max-width:760px){
+      .hero-grid,.cards,.gallery{grid-template-columns:1fr}
+      .hero{padding-bottom:38px}
+      .hero-grid{padding-top:35px}
+      h1{font-size:44px}
+      .hero-card{max-width:430px;margin:auto}
+      section{padding:45px 0}
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <nav>
+      <div class="brand">APEX • CORTE DE GRAMA</div>
+      <div class="tag">Santo Ângelo • Atendimento em domicílio</div>
+    </nav>
+
+    <div class="hero-grid">
+      <div>
+        <span class="offer">🎁 OFERTA PARA NOVOS CLIENTES</span>
+        <h1>Seu gramado limpo e bem cuidado.</h1>
+        <p>Corte de grama com atendimento em domicílio em Santo Ângelo. Prático, rápido e sem você precisar se preocupar.</p>
+        <a class="cta" href="#contato">📲 Pedir orçamento</a>
+      </div>
+      <div class="hero-card">
+        <div class="grass-icon">🌱✂️</div>
+        <h3>Quer deixar o pátio em dia?</h3>
+        <p>Envie uma mensagem pelo WhatsApp e faça seu orçamento.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="title">
+      <h2>Como podemos ajudar</h2>
+      <p>Um serviço simples para deixar seu espaço muito melhor.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="ico">✂️</div><h3>Corte de grama</h3><p>Corte do gramado para manter o pátio limpo e organizado.</p></div>
+      <div class="card"><div class="ico">🏠</div><h3>Atendimento em domicílio</h3><p>Você não precisa levar nada. Nós vamos até sua residência.</p></div>
+      <div class="card"><div class="ico">📲</div><h3>Orçamento rápido</h3><p>Envie fotos ou combine uma avaliação pelo WhatsApp.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="offer-section">
+  <div class="wrap">
+    <div class="offer-box">
+      <div>🔥 CONDIÇÃO ESPECIAL DO ENVELOPE</div>
+      <div class="discount">R$ XX OFF</div>
+      <p>no primeiro serviço para novos clientes.</p>
+      <p>Ao chamar no WhatsApp, informe o código:</p>
+      <div class="code">ENVELOPE</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="title">
+      <h2>Veja o resultado</h2>
+      <p>Substitua estes espaços por fotos reais dos seus serviços.</p>
+    </div>
+    <div class="gallery">
+      <div class="photo">📷<br>FOTO DO SEU SERVIÇO</div>
+      <div class="photo">📷<br>FOTO DO SEU SERVIÇO</div>
+      <div class="photo">📷<br>FOTO DO SEU SERVIÇO</div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contato">
+  <div class="wrap">
+    <h2>Seu gramado está precisando de um trato?</h2>
+    <p>Fale conosco pelo WhatsApp e peça seu orçamento.</p>
+    <a class="whatsapp" href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1!%20Recebi%20o%20envelope%20da%20oferta%20de%20corte%20de%20grama%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener">💬 Falar no WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  APEX • CORTE DE GRAMA — Santo Ângelo/RS • Atendimento em domicílio
+</footer>
+
+</body>
+</html>
